@@ -1,0 +1,32 @@
+body{
+    font-size:12px;
+    background: url('music.jpg')no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+}
+.keys{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh; 
+}
+.key{
+    border: .2rem solid #000000;
+    border-radius: .5rem;
+    margin: 1rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+}
+kbd{
+    display: block;
+    font-size: 32px;
+}
